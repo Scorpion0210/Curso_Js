@@ -1,0 +1,10 @@
+O que precisa estudar mais:
+
+    • functions;
+    • objetos;
+    • modularização;
+    • RegEx;
+    • JSON
+    • AJAX
+    • NodeJS
+

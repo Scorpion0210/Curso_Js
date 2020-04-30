@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>opa</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #d2dee6;
+        }
+        p{
+            margin: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Informe Seu País</h1>
+    <p>
+        <input type="text" name="txtp" id="txtp">
+    </p>
+    <p>
+        <input type="button" value="Confirmar" onclick="confirma()">
+    </p>
+    <div id="res"></div>
+
+    <script>
+        function confirma(){
+            var a = window.document.querySelector('input#txtp')
+            var valor = a.value
+            var res = window.document.querySelector('div#res')
+
+            res.innerHTML = `<p>Você mora em ${valor}.</p>`
+
+            if (valor == 'Brasil') {
+                res.innerHTML += `<p>Você é brasileiro.</p>`
+            } else {
+                res.innerHTML += `<p>Você é estrangeiro.</p>`
+            }
+           
+        }
+    
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    background: rgb(70, 142, 241);
+    font: normal 10pt Arial;
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.36);
+}
+
+div{
+    padding: 8px;
+}
+
+input{
+    padding: 3px;
+    border: 1px solid #00bac6;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 11px;
+    color: #fff;
+    border: none;
+    border-radius: 3px 3px 0 3px;
+    padding: 5px 10px;
+    background: #00bac6;
+}
+.btn:hover{
+    background: #0087c6;
+}
+
+
+select{
+    width: 180px;
+    padding: 2px;
+    border: 1px solid #00bac6;
+    margin-left: auto;
+}
+
+select::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+    padding: 5px;
+}
+    
+select::-webkit-scrollbar-track {
+    background:#a0c7ca;
+}
+    
+select::-webkit-scrollbar-thumb {
+    background: #48b5bd;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+#res{
+    font-size: 16px;
+    color: #6b6b6b;
+}
